@@ -1,0 +1,611 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Zopper</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(to right, rgb(20, 18, 139), rgb(184, 23, 184) 100%);
+            height: 90px;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+        }
+
+        .logo {
+            margin-left: 105px;
+        }
+
+        .banner {
+            background: linear-gradient(to right, rgb(20, 18, 139), rgb(184, 23, 184) 100%);
+            height: 450px;
+            text-align: center;
+            align-items: center;
+            vertical-align: middle;
+            line-height: 450px;
+            font-family: 'Poppins';
+            font-size: 70px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .heading {
+
+            font-size: 17px;
+            color: white;
+            font-family: "Poppins";
+            cursor: pointer;
+        }
+
+        .side {
+            width: 450px;
+            height: 2500px;
+            background-color: rgb(240, 240, 240);
+            ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .xtra {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(242, 240, 255);
+            border-color: rgb(246, 245, 255);
+            border-style: outset;
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        .block {
+            margin-right: 30px;
+            background-color: rgb(240, 240, 240);
+            width: 700px;
+            height: 1000px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog {
+            background-color: white;
+            width: 700px;
+            border-radius: 12px;
+        }
+
+        .h:hover {
+            color: yellow;
+            font-size: 23px;
+            text-decoration: overline;
+            transition: .2s ease;
+        }
+
+        .contact {
+            background-color: orange;
+            height: 50px;
+            width: 200px;
+            border-radius: 17px;
+            border: 1.5px solid orange;
+            text-align: center;
+            line-height: 58px;
+            vertical-align: middle;
+        }
+
+        .contacthover:hover {
+            background: none;
+            border: 1.5px solid orange;
+            transition: 0.2s ease-in;
+            color: orange;
+        }
+
+        .searchbutton {
+            height: 50px;
+            width: 340px;
+            background-color: white;
+            font-size: 18px;
+            border: solid #04D2C8;
+            color: #04D2C8;
+            font-family: 'Poppins';
+            letter-spacing: 2px;
+
+        }
+
+        .searchhover:hover {
+            background-color: #04D2C8;
+            color: white;
+        }
+
+        .writeup {
+            font-family: 'Poppins';
+            font-size: 14px;
+            margin-left: 30px;
+            margin-right: 30px;
+            line-height: 25px;
+        }
+
+        .category {
+            margin-left: 20px;
+            margin-right: 20px;
+            line-height: 70px;
+            font-family: 'Muli';
+        }
+
+        .cathov:hover {
+            color: rgb(255, 0, 43);
+        }
+
+        .redhov:hover {
+            color: red;
+        }
+
+        .headhov:hover {
+            color: rgb(174, 0, 255);
+            transition: 0.25s ease;
+        }
+
+
+        .media {
+            background-color: rgb(77, 75, 209);
+            height: 50px;
+            width: 50px;
+            border-radius: 12px;
+            text-align: center;
+            margin-right: 20px;
+        }
+
+        .mediaicons {
+            margin-top: 12px;
+            font-size: 25px;
+        }
+
+        .mhover:hover {
+            color: white;
+        }
+
+        .post {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .f:hover {
+            color: yellow;
+            font-size: 30px;
+            text-decoration: overline;
+            transition: .2s ease;
+        }
+
+        .img:hover {
+            transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+
+        }
+
+        .img1:hover {
+            transform: matrix(1.08, 0, 0, 1.08, 0, 0);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header" style="display: flex; align-items: center; ">   <!-- mdn ****** What to be searched-->
+        <div class="logo">
+            <img src="https://www.zopper.com/assets/images/zedsecure/zopper_LOGO.png" width="500px" height="100px" title="ZOOPER LOGO">
+       
+        </div>
+
+        <div style="display: flex; justify-content: space-around; margin-top: 8px; width: 1200px; align-items: center;">
+            <div class="heading" style="margin-left: 30px;">
+                <span class="h"><a href="final.html">Home </a></span>&#9662;
+            </div>
+
+            <div class="heading">
+                <span class="h"><a href="Products.html">Products</a>  </span>
+            </div>
+
+            <div class="heading">
+                <span class="h"><a href=  "About.html"  >About </a> </span>&#9662;
+            </div>
+
+            <div class="heading">
+                <span class="h">Extras</span>
+            </div>
+
+            <div class="heading">
+                <span class="h">Blog</span>&#9662;
+            </div>
+
+            <div class="heading">
+                <span class="h">Contact</span>
+            </div>
+
+            <div class="heading" style="display: flex; align-items: center; ">
+                <span class="material-icons">person</span><span class="h" style="position: relative; bottom: 5px;"> Log in</span>
+            </div>
+            <div class="heading contacthover contact" style="display: flex; align-items: center; ">
+                <span class="material-icons">call</span><span style="position: relative; bottom: 5px;"> +10 378 467 3672</span>
+            </div>
+        </div>
+
+    </div>
+
+    <br /><br /><br /><br /><br style="line-height: 16px;" />
+    <hr />
+
+    <div class="banner">
+        Zopper
+    </div>
+
+    <div style="display: flex; background-color: rgb(240, 240, 240); justify-content: center;">
+
+        <div class="block">
+
+            <br style="line-height: 25px;" /><br style="line-height: 25px;" /><br style="line-height: 25px;" />
+            <div class="blog">
+
+                <img style="width: 1024px; height: 264px;" src="https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/769762/zopper-cover.png" alt="Zopper cover">
+
+                <br /><br /><br />
+                <div class="writeup"
+                    style="font-weight: 900; font-size: 27px; color: rgb(46, 0, 75); line-height: 32px; cursor: pointer;">
+                    <span class="headhov">Why only Zopper?</span>
+                </div>
+                <br style="line-height: 25px;" />
+                <div class="writeup" style="color: rgb(141, 141, 141)">  <ol>
+                    <li><h4 style="color:blueviolet">Comprehensive Plan for electronics</h4><br>
+                            Home assure protects all your electronics in one go and eliminates all the troubles of documentation.</li><br>
+                            <li><h4 style="color:blueviolet">Cashless Repairs</h4><br>
+                                    Home Assure gives you cashless repairs on all appliances providing more coverage than your existing warranty so that you dont have to worry about common damages to your appliances.</li><br>
+                                    <li> <h4 style="color:blueviolet">Hassle Free Claim</h4><br>
+                                            Filing claim is very easy. Just call on our toll-free number and your claim will be registered immediately saving your effort and time.</li><br>
+                                            <li> <h4 style="color:blueviolet">Authorised Service Centres</h4><br>
+                                                    Home Assure guarantees that your products will be serviced only at brand authorized service centres.</li>
+                </ol>
+                    
+                        <br />
+                </div> <br style="line-height: 25px;" />
+                <div class="writeup"
+                    style="color: grey; font-family: 'Times New Roman', Times, serif; color: rgb(83, 83, 83); cursor: pointer;">
+                    <span class="material-icons" style="font-size: 18px;">person</span>
+                    <span class="redhov" style="position: relative; bottom: 3px;"> &nbsp;Warranty Company, Business
+                        <h2 style="display: inline; margin-left: 15px; margin-right: 12px;"> |</h2>
+                    </span>
+                    <span class="material-icons" style="font-size: 18px;">comment</span>
+                    <span class="redhov" style="position: relative; bottom: 3px;">
+                        &nbsp;35 comments
+                    </span>
+
+                </div>
+                <br style="line-height: 25px;" />
+            </div>
+
+            <br /><br /><br />
+
+            <div class="blog">
+
+                <img src="https://www.zopper.com/assets/images/zedsecure/zopper_LOGO.png" width="700px" height="700px" title="ZOOPER LOGO">
+       
+
+                <br /><br /><br />
+                <div class="writeup"
+                    style="font-weight: 900; font-size: 27px; color: rgb(46, 0, 75); line-height: 32px; cursor: pointer;">
+                    <span class="headhov">Google Cloud Platform: Everything You Need To Know</span>
+                </div>
+                <br style="line-height: 25px;" />
+                <div class="writeup" style="color: rgb(141, 141, 141)">   <h2>Devices we give warranty on </h2>
+                    <img src="https://www.edu.xunta.es/espazoAbalar/sites/espazoAbalar/files/datos/1447248368/contido/aElectricidade/resources/poster/electrical_appliances.html" title="Appliances">
+                    <ol style="font-size:120%">
+                        <li>Large appliance<ul>
+                            <li><em>Washing machines</em></li>
+                            <li>Dish washer</li>
+                            <li>Air purifier</li>
+                            <li>Cooler</li>
+                            <li>Microwave</li>
+                            <li>Gyser</li>
+                        </ul></li>
+                        <li><em>Small appliances</em><ul>
+                            <li>Home theater</li>
+                            <li>Coffee maker</li>
+                            <li> Electric kettel  </li>
+                            <li> Electric iron</li>
+                        </ul></li>
+                        
+                    </ol>
+                    <br>
+                </div> <br style="line-height: 25px;" />
+                <div class="writeup"
+                    style="color: grey; font-family: 'Times New Roman', Times, serif; color: rgb(83, 83, 83); cursor: pointer;">
+                    <span class="material-icons" style="font-size: 18px;">person</span>
+                    <span class="redhov" style="position: relative; bottom: 3px;"> &nbsp;Technology
+                        <h2 style="display: inline; margin-left: 15px; margin-right: 12px;"> |</h2>
+                    </span>
+                    <span class="material-icons" style="font-size: 18px;">comment</span>
+                    <span class="redhov" style="position: relative; bottom: 3px;">
+                        &nbsp;45 comments
+                    </span>
+
+                </div>
+                <br style="line-height: 25px;" />
+            </div>
+
+            <br /><br /><br />
+
+         
+        </div>
+
+        <div class="side">
+
+            <br /><br /><br /><br /><br /><br /><br /><br />
+
+            <div class="xtra" style="align-items: center;">
+
+                <br /><br />
+                <div style=" display: flex;  border: solid grey; border-width: 1px;">
+
+                    <input placeholder=" Search Keyword"
+                        style="width: 300px; height: 50px; border: none; font-size: 15px; font-family: 'Poppins'; padding-left: 10px;" />
+
+                    <button style="width: 40px; height: 50px; background-color: white; border: none;">
+                        <span class="material-icons" style="font-size: 40px; margin-top: 4px;">search</span>
+                    </button>
+                </div>
+                <br />
+
+                <button type="button" class="searchhover searchbutton">
+                    SEARCH
+                </button>
+
+                <br /><br />
+
+            </div>
+            <br /><br />
+
+            <div class="xtra">
+                <span style="font-family: 'Poppins';margin-left: 20px; margin-right: 20px;  line-height: 70px; ">
+                    <h1>FAQs
+                        <hr style="border-color: red;" />
+                    </h1>
+                </span>
+                <br />
+                <span class="category cathov">How to avail
+                    <hr style="border-color: rgb(204, 204, 204); border-width: 0.5px;" /> </span>
+
+                <span class="category cathov">Validity
+                    <hr style="border-color: rgb(204, 204, 204); border-width: 0.5px;" /> </span>
+
+                <span class="category cathov">Updating my details
+                    <hr style="border-color: rgb(204, 204, 204); border-width: 0.5px;" /> </span>
+
+                <span class="category cathov">Product(11)
+                    <hr style="border-color: rgb(204, 204, 204); border-width: 0.5px;" /> </span>
+
+                <span class="category cathov">Updates on us
+                    <hr style="border-color: rgb(204, 204, 204); border-width: 0.5px;" /> </span>
+
+                <span class="category cathov">Help </span>
+                <br />
+
+            </div>
+
+            <br /><br />
+
+            <div class="xtra">
+                <span style="font-family: 'Poppins';margin-left: 20px; margin-right: 20px;  line-height: 70px; ">
+                    <h1>Recent Updates on us
+                        <hr style="border-color: red;" />
+                    </h1>
+                </span>
+                <br />
+                <div class="post" style="display: flex; align-items: center;">
+                    <img src="post_1.png" alt="" height="85px" width="85px" />
+
+                    <span style="font-family: 'Muli'; margin-left: 20px; font-size: 15px;">
+                        <h3 class="redhov">Warranty on this as well</h3>
+                        <br style="line-height: 9px;" />
+                        <span style="font-size: 13px; font-family: 'Times New Roman', Times, serif;color: #646464;">
+                            January 12, 2019
+                        </span>
+                    </span>
+                </div>
+                <br />
+                <div class="post" style="display: flex; align-items: center;">
+                    <img src="post_2.png" alt="" height="85px" width="85px" />
+
+                    <span style="font-family: 'Muli'; margin-left: 20px; font-size: 15px;">
+                        <h3 class="redhov">Warranty on your electronics</h3>
+                        <br style="line-height: 9px;" />
+                        <span style="font-size: 13px; font-family: 'Times New Roman', Times, serif;color: #646464;">
+                            March 07, 2019
+                        </span>
+                    </span>
+                </div>
+                <br />
+                <div class="post" style="display: flex; align-items: center;">
+                    <img src="post_3.png" alt="" height="85px" width="85px" />
+
+                    <span style="font-family: 'Muli'; margin-left: 20px; font-size: 15px;">
+                        <h3 class="redhov">Warranty on Households</h3>
+                        <br style="line-height: 9px;" />
+                        <span style="font-size: 13px; font-family: 'Times New Roman', Times, serif;color: #646464;">
+                            August 24, 2019
+                        </span>
+                    </span>
+                </div>
+                <br />
+                <div class="post" style="display: flex; align-items: center;">
+                    <img src="post_4.png" alt="" height="85px" width="85px" />
+
+                    <span style="font-family: 'Muli'; margin-left: 20px; font-size: 15px;">
+                        <h3 class="redhov">Warranty on this</h3>
+                        <br style="line-height: 9px;" />
+                        <span style="font-size: 13px; font-family: 'Times New Roman', Times, serif;color: #646464;">
+                            05 hours ago
+                        </span>
+                    </span>
+                </div>
+                <br />
+
+            </div>
+
+            <br /><br />
+
+            <div class="xtra">
+                <span style="font-family: 'Poppins';margin-left: 20px; margin-right: 20px;  line-height: 70px;">
+                    <h1>Instagram updates on us
+                        <hr style="border-color: red;" />
+                    </h1>
+                </span>
+                <br />
+                <div style="display: flex; flex-wrap: wrap; margin-left: 25px;">
+                    <div style="overflow: hidden; margin-right: 20px;  margin-top: 20px;">
+                        <img class="img" src="1.png" alt="" width="100px" height="100px" />
+                    </div>
+                    <div style="overflow: hidden; margin-right: 20px;  margin-top: 20px;">
+                        <img class="img" src="2.png" alt="" width="100px" height="100px" />
+                    </div>
+                    <div style="overflow: hidden; margin-right: px;  margin-top: 20px;">
+                        <img class="img" src="12165.png" alt="" width="100px" height="100px" />
+                    </div>
+                    <div style="overflow: hidden; margin-right: 20px;  margin-top: 20px;">
+                        <img class="img" src="single_blog_3.png" alt="" width="100px" height="100px" />
+                    </div>
+                    <div style="overflow: hidden; margin-right: 20px;  margin-top: 20px;">
+                        <img class="img" src="single_blog_4.png" alt="" width="100px" height="100px" />
+                    </div>
+
+
+
+                </div>
+                <br />
+            </div>
+
+            <br /><br />
+
+            <div class="xtra" style="align-items: center;">
+
+                <span style="font-family: 'Poppins';margin-left: 20px; margin-right: 20px;  line-height: 70px; ">
+                    <h1>Newsletter
+                        <hr style="border-color: red;" />
+                    </h1>
+                </span>
+                <br /><br />
+                <div style=" display: flex;  border: solid grey; border-width: 1px;">
+
+                    <input type="email" placeholder=" Enter email"
+                        style="width: 340px; height: 50px; border: none; font-size: 15px; font-family: 'Poppins'; padding-left: 10px;" />
+
+
+                </div>
+                <br />
+
+                <button type="button" class="searchhover searchbutton">
+                    SUBSCRIBE
+                </button>
+
+                <br /><br />
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="header" style="position: static; height: 85vh;display: flex;">
+
+        <div style="margin-top: 125px; display: flex; flex-direction: column; width: 300px; margin-left: 150px;">
+            <div>
+                <img src="logo.png" alt="Logo">
+            </div>
+            <br style="line-height: 30px;" />
+
+            <div style="font-family: Muli; color: white; line-height: 30px; text-align: justify;">
+                A brand for warranty </div>
+
+            <br style="line-height: 30px;" />
+
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div class="media">
+                    <span class="fa fa-facebook-f mediaicons mhover"></span>
+                </div>
+                <div class="media">
+                    <span class="fa fa-instagram mediaicons mhover"></span>
+                </div>
+                <div class="media">
+                    <span class="fa fa-twitter mediaicons mhover"></span>
+                </div>
+                <div class="media">
+                    <span class="fa fa-youtube mediaicons mhover"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div
+            style="width: 200px; margin-left: 150px; margin-top: 125px; display: flex; flex-direction: column; color: white">
+            <div style="font-family: 'Poppins'; font-size: 27px; ">
+                <span class="f">Also help in</span>
+            </div>
+            <br style="line-height: 30px;" />
+
+            <div style="font-family: 'Times New Roman', Times, serif; font-size: 18px; display: flex; flex-direction: column; line-height: 42px;
+                color: rgb(194, 194, 194);">
+                <span>Life insurance</span>
+                <span>Property insurance</span>
+                <span>Free lancing</span>
+                <span>Free servers </span>
+                <span>UI / UX</span>
+            </div>
+        </div>
+
+        <div
+            style="width: 200px; margin-left: 60px; margin-top: 125px; display: flex; flex-direction: column; color: white">
+            <div style="font-family: 'Poppins'; font-size: 27px; ">
+                <span class="f">Updates </span>
+            </div>
+            <br style="line-height: 30px;" />
+
+            <div style="font-family: 'Times New Roman', Times, serif; font-size: 18px; display: flex; flex-direction: column; line-height: 42px;
+                color: rgb(194, 194, 194);">
+                <span>Facebook</span>
+                <span>Instagram</span>
+                <span>Twitter</span>
+                <span>Meetup</span>
+            </div>
+        </div>
+
+        <div
+            style="width: 250px; margin-left: 60px; margin-top: 125px; display: flex; flex-direction: column; color: white">
+            <div style="font-family: 'Poppins'; font-size: 27px; ">
+                <span class="f">Address</span>
+            </div>
+            <br style="line-height: 30px;" />
+
+            <div style="font-family: 'Times New Roman', Times, serif; font-size: 16px; display: flex; flex-direction: column; line-height: 42px;
+                color: rgb(194, 194, 194);">
+                <span>200, D-block, Green lane USA</span>
+                <span>+10 367 467 8934</span>
+                <span>xyz@contact.com</span>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+
+        (function(d, m){
+          var kommunicateSettings = {"appId":"22078bd36dc2af8757c73269f26c53ebb","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
+</body>
+
+</html>
